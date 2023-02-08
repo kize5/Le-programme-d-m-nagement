@@ -1,6 +1,6 @@
-public class demenagement {
+public class Demenagement {
 
-    public static void moveCarton()  {
+    public void moveCarton()  {
         int carton = 34;
         int trajet = 9;
         while (carton > 0) {
@@ -13,6 +13,7 @@ public class demenagement {
     }
 
     public static void main(String[] args) {
-        moveCarton();
+        Demenagement obj = new Demenagement();
+        obj.moveCarton();
     }
 }
